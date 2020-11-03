@@ -21,4 +21,4 @@ jobs:
       - name: Install dependencies
         run: pipenv install
       - name: Run tests
-        run: coverage run --branch -m pytest
+        run: pipenv run coverage run --branch -m pytest
